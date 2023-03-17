@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:300;
+    display: block;
+    color: black;
+}
+.task_block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3px;
+}
+.input-success {
+    border-color: green;
+    border-style: solid;
+}
+.input-error {
+    border-color: red;
+    border-style: solid;
+}
+p {
+    font-family: 'Roboto Slab', serif;
+    font-weight:300;
+    display: block;
+}
+.card {
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 2px 2px 5px rgb(188, 188, 188);
+    padding: 10px 10px;
+    margin: 50px auto;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%
+}
+.inner_card {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    background-color: rgb(237, 237, 237);
+}
+
+.btn {
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 148, 217);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 2px rgb(188, 188, 188);
+    transition: background-color 0.5s 0s;
+    display: block;
+}
+.success {
+    background-color: rgb(34, 163, 2);
+}
+.success:hover {
+    background-color: rgb(27, 134, 0);   
+}
+.primary {
+    background-color: rgb(0, 148, 217);
+}
+.primary:hover {
+    background-color: rgb(0, 109, 159);   
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+#table_card_num {
+    display: flex;
+    align-items: center;
+}
+.input {
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(160, 160, 160);
+    font-style: 'Roboto Slab', serif;
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    display: block;
+}

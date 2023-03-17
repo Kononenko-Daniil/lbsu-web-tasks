@@ -1,0 +1,78 @@
+/*задний фон страницы*/
+a {
+  text-decoration: none ;
+}
+
+body
+{
+  background-image: url(../img/fon2.jpg);
+}
+
+/*свойства заголовков*/
+h1 
+{
+  font: none 400 20px;
+  font-family: Pacifico;
+  color: white;
+  text-align: center;
+  text-shadow: #8B4513 1px 1px 0, #8B4513 -1px -1px 0, 
+                #8B4513 -1px 1px 0, #8B4513 1px -1px 0; 
+  transition: transform 0.5s 0s linear;
+}
+h1:hover 
+{
+  transform: scale(1.5, 1.5);
+}
+
+/*свойства контейнера с перечнем авторов*/
+div.block_avtor
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 900px;
+  height: 350px;
+  text-align: justify;  
+  background-color: rgb(255, 229, 152);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  transition: background-color 0.5s 0s linear, box-shadow 0.3s 0s linear;
+}
+div.block_avtor:hover
+{
+  background-color: rgb(255, 205, 79);
+  box-shadow: 5px 10px;
+}
+p 
+{
+    font-family: Roboto Slab;
+    color: green;
+}
+
+/*свойства контейнера, содержащего фото автора и ФИО*/
+div.avtor
+{
+  display: flex;
+  flex-direction: column;
+  width: 300;
+  float: left;
+  text-align: center;
+  color: rgb(255, 229, 152);
+  font-weight: normal;
+}
+
+/*свойства абзаца, содержащего ФИО автора*/
+p.it
+{
+  font-family: Roboto Slab;
+  text-align: center;
+}
+
+/*свойства фото автора*/
+img.v
+{
+  height:250px;
+  padding: 10px; 
+  padding-top: 20px;
+}

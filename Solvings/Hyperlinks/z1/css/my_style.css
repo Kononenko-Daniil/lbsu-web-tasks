@@ -1,0 +1,36 @@
+body.a {
+    background: #234d4c;
+}
+body.b {
+    background: #43234d;   
+}
+div {
+    margin-left: 10%;
+    margin-top: 35px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+div.a {
+    background: #c9e7ea;
+}
+div.b {
+    background: #dbc9ea;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    font-weight: bold;
+    color: #183435;
+}
+a {
+    font: lighter 100% 'Arial';
+    color: blue;
+}
+p.a {
+    text-align: right;
+}
+p.b {
+    text-align: left;
+}

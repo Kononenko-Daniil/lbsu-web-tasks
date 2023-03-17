@@ -1,0 +1,139 @@
+/*задний фон страницы*/
+a {
+  text-decoration: none ;
+}
+body
+{
+  background-image: url(../img/fon2.jpg);
+}
+/*свойства заголовков*/
+h1 
+{
+  font: none 400 20px;
+  font-family: Pacifico;
+  color: white;
+  text-align: center;
+  text-shadow: #8B4513 1px 1px 0, #8B4513 -1px -1px 0, 
+                #8B4513 -1px 1px 0, #8B4513 1px -1px 0; 
+}
+/*свойства контейнера с перечнем авторов*/
+div.block_avtor
+{
+  width: 900px;
+  height: 350px;
+  text-align: justify;  
+  background-color: rgb(255, 229, 152);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+/*свойства контейнера, содержащего фото автора и ФИО*/
+div.avtor
+{
+  width: 300;
+  float: left;
+  text-align: center;
+  color: rgb(255, 229, 152);
+  font-weight: normal;
+}
+/*свойства контейнера с первым стихотворением
+отвечает за фон*/
+div.stix1 
+{
+  background-image: url(../img/fon.jpeg);
+  width: 900px;
+  height: fit-content;
+  overflow: hidden;
+  margin: 10px; 
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 10px;
+}
+/*свойства контейнера со вторым стихотворением
+отвечает за фон*/
+div.stix2 
+{
+  background-image: url(../img/fon1.jpg);
+  width: 900px;
+  height: fit-content;
+  overflow: hidden;
+  margin: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+div.stix3 
+{
+  background-image: url(../img/fon3.jpeg);
+  width: 900px;
+  height: fit-content;
+  overflow: hidden;
+  margin: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+/*свойства контейнера, содержащего текст стихотворения и картинку*/
+div.b 
+{
+  width: 750px;
+  background: rgb(255, 240, 240); 
+  padding: 10px; 
+  margin: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*свойства горизонтальной линии*/
+hr
+{
+  color: #DC143C;
+  background-color:#FFD700;
+  height: 2px;
+}
+/*свойства абзаца, содержащего текст стихотворения*/
+p 
+{
+  font-family: Roboto Slab;
+  color: green;
+}
+/*свойства абзаца, содержащего ФИО автора*/
+p.it
+{
+  font-family: Roboto Slab;
+  text-align: center;
+}
+/*свойства картинки для первого стихотворения*/
+img.stix1
+{
+  height:350px;
+  padding: 10px;
+  float: right;
+}
+/*свойства картинки для второго стихотворения*/
+img.stix2
+{
+  height:350px;
+  padding: 10px;
+  float: left;
+}
+img.stix3
+{
+  height:350px;
+  padding: 10px;
+  float: right;
+}
+/*свойства фото автора*/
+img.v
+{
+  height:250px;
+  padding: 10px; 
+  padding-top: 20px;
+}
+/*свойства картинки со значком домой*/
+img.home
+{
+  width: 50px;
+  float: right;
+}

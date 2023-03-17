@@ -1,0 +1,109 @@
+/*фон главноой страницы*/
+body.index
+{
+  background-image: url(../img/zoo_12.jpg);
+}
+/*фон страниц со стихами*/
+body
+{
+  background: #015BCA;
+}
+/*основные свойства контейнера*/
+div {
+  margin: 50px 10%;
+  padding: 10px 20px;
+  border: double 3px #01A9DB;
+  background: #E0F8F7;
+  overflow: hidden;
+}
+div.to_index {
+  margin: 10px;
+  padding: 0px;
+  border: none;
+  text-align: right;
+}
+/*основные свойства заголовка h1*/
+h1
+{
+  text-align: center;
+  font-family: Monotype Corsiva;
+  font-size: 36pt;
+  font-weight: bold;
+  color: #5668CF;
+}
+/*основные свойства заголовка h2*/
+h2
+{
+  text-align: right;
+  font-family: 'Pacifico', cursive;
+  font-size: 18pt;
+  font-weight: lighter;
+  color: #142586;
+}
+/*свойства горизонтальной линии*/
+hr
+{
+  border: solid 2px #01A9DB;
+}
+/*свойства контейнера, который содержит ссылку*/
+div.link
+{
+  margin: 20px;
+  padding: 5px;
+  border: none;
+  box-shadow: inset -3px -3px 10px 3px #01A9DB;
+  background: #A9E2F3;
+  color: #142586;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 18pt;
+}
+/*свойства контейнера, который содержит ссылку,
+при наведении на него мышки*/
+div.link:hover
+{
+  
+  background: #01A9DB;
+  box-shadow: inset -3px -3px 10px 3px #142586;
+  color: #E0F8F7;
+} 
+/*свойства абзацев, содержащих текст стихотворения*/
+p
+{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 18pt;
+  color: #142586;
+}
+/*свойства шрифта в ссылках*/
+a
+{
+  font-family: 'Pacifico', cursive;
+  color: #142586;
+}
+/*отсутствие подчеркивания текста в ссылке*/
+a.index
+{
+  text-decoration: none;
+}
+/*свойства картинки на странице про тигренка*/
+img.tiger
+{
+  width: 500px;
+  display: block;
+  margin: 10 auto;
+}
+img.camel
+{
+  float:right;
+  width: 400px;
+  display: block;
+  margin: 10;
+}
+img.giraffe
+{
+  float:left;
+  display: block;
+  width: 400px;
+  margin: 10;
+}

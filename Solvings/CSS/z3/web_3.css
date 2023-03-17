@@ -1,0 +1,35 @@
+body {
+    background-image: url(img/back.jpg);
+}
+
+.main-block {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(99, 28, 28);
+    border-radius: 20px;
+    border-width: 20px;
+    background-color: rgb(255, 234, 188);
+
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 650px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(55, 15, 15);
+    font-family: Lobster;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    text-align: center;
+    font-family: Roboto Slab;
+}

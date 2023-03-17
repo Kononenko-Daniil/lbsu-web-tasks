@@ -1,0 +1,128 @@
+/*задний фон страницы*/
+a {
+    text-decoration: none ;
+}
+body
+{
+    background-image: url(../img/fon2.jpg);
+}
+/*свойства заголовков*/
+h1 
+{
+    font: none 400 20px;
+    font-family: Pacifico;
+    color: white;
+    text-align: center;
+    text-shadow: #8B4513 1px 1px 0, #8B4513 -1px -1px 0, 
+                #8B4513 -1px 1px 0, #8B4513 1px -1px 0; 
+}
+
+/*свойства контейнера с первым стихотворением
+отвечает за фон*/
+div.stix1 
+{
+    background-image: url(../img/fon.jpeg);
+    width: 900px;
+    height: fit-content;
+    overflow: hidden;
+    margin: 10px; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px;
+}
+/*свойства контейнера со вторым стихотворением
+отвечает за фон*/
+div.stix2 
+{
+    background-image: url(../img/fon1.jpg);
+    width: 900px;
+    height: fit-content;
+    overflow: hidden;
+    margin: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+div.stix3 
+{
+    background-image: url(../img/fon3.jpeg);
+    width: 900px;
+    height: fit-content;
+    overflow: hidden;
+    margin: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/*свойства контейнера, содержащего текст стихотворения и картинку*/
+div.b 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+    background: rgb(255, 240, 240); 
+    padding: 10px; 
+    margin: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*свойства горизонтальной линии*/
+hr
+{
+    color: #DC143C;
+    background-color:#FFD700;
+    height: 2px;
+}
+/*свойства абзаца, содержащего текст стихотворения*/
+p 
+{
+    font-family: Roboto Slab;
+    color: green;
+}
+img.stix1
+{
+    height:350px;
+    padding: 10px;
+    float: right;
+    transition: transform 0.2s 0s linear;
+}  
+img.stix1:hover
+{
+    transform: rotate(10deg);
+}  
+img.stix2
+{
+    height:350px;
+    padding: 10px;
+    float: left;
+    transition: transform 0.2s 0s linear;
+}
+img.stix2:hover
+{
+    transform: scale(1.2, 1.2);
+}
+img.stix3
+{
+    height:350px;
+    padding: 10px;
+    float: right;
+    transition: transform 0.2s 0s linear;
+}
+img.stix3:hover
+{
+    transform: translate(0, 100px); 
+}
+.nav {
+    width: fit-content;
+    color: black;
+    background-color:rgb(255, 240, 240);
+    padding: 10;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}

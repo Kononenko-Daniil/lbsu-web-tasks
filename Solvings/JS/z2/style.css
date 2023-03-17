@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.res_img {
+    width: 100px;
+}
