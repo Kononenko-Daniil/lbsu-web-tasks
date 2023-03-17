@@ -1,2 +1,2 @@
 # lbsu-web-tasks
-This is a repository with solved profile web tasks
+Repository with solved Lyceum BSU tasks (Web-Development topic)
