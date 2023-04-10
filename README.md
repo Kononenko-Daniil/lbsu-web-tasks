@@ -1,2 +1,2 @@
 # lbsu-web-tasks
-Repository with solved Lyceum BSU tasks (Web-Development topic). You can find my credit-project in [LBSU Game Center](https://github.com/Kononenko-Daniil/lbsu-game-center) repo.
+Репозиторий, содержащий все решенные задания по теме "Веб-констриуирование" Лицея БГУ, которая проходится на профильном уровне. Мой творческий проект по этой теме - [LBSU Game Center](https://github.com/Kononenko-Daniil/lbsu-game-center).
